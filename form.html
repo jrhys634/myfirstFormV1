@@ -3,26 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="CSS/formstyle.css">
+        <link rel="stylesheet" href="formstyle.css"">
         <title>Rhys' Form</title>
     </head>
     <body>
-        <h1>Rhys's Subscription Letter</h1>
+        <h1>Rhys' Subscription Letter</h1>
         <form action="#" id="main-form" >
             <!-- Contact Details -->
             <fieldset>
                 <legend id="cheader">Contact Details</legend>
                 <label for="fname" id="fname" >Full Name:</label>
-                <input id="iname" type="text" maxlength="30" size="15"/>
+                <input id="iname" type="text" maxlength="30" size="15" required/>
                 <br>
                 <label for="email" id="email">Email:</label>
-                <input id="iemail" type="text" maxlength="30" size="15"/>
+                <input id="iemail" type="text" maxlength="30" size="15" required/>
                 <br>
                 <label for="telenumber" id="telenumber">Contact Number</label>
-                <input id="itelephonenumber" type="number" maxlength="11" size="15"/>
+                <input id="itelephonenumber" type="number" maxlength="11" size="15" required/>
                 <br>
                 <label for="password" id="password">Password:</label>
-                <input id="ipassword" type="password" maxlength="30" size="15"/>
+                <input id="ipassword" type="password" maxlength="30" size="15" required/>
                 <br>
             </fieldset>
             <br>
@@ -58,7 +58,7 @@
                 <label for="tsandcs" id="tsandcs"><a href="#">Please Read our Terms and Conditions</a></label>
                 <input name="terms" value="termsandcoditions" type="radio" required/>
                 <br>
-                <input type="submit" value="Subscribe"/>
+                <input type="submit" value="Subscribe" id="subscribe"/>
              </fieldset>
         </form>
     </body>

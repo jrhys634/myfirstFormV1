@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Ysabeau+Office:ital,wght@1,1&display=swap');
+
 
 * {
     margin: left;
@@ -16,6 +18,10 @@
 
 #fname, #iname, #email, #iemail, #telenumber, #itelephonenumber, #password, #ipassword {
     margin: 2px 0 2px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-style: italic;
 }
 
 
@@ -32,4 +38,27 @@ h1 {
     font-style: italic;
     font-family: 'Caprasimo';
     text-align: center;
+}
+
+
+/* Submit Button */
+#subscribe {
+    height: 25px;
+    width: 125px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #F0D8CCFF;
+}
+
+#subscribe:hover {
+    background-color: #E0CBBFFF;
+    font-weight: bold;
+}
+
+/* Border Styling */
+fieldset {
+    border-width: 3px;
+    border-style: dashed;
+    border-color: #CFBAB0FF;
+    border-radius: 10px;
 }
