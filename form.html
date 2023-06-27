@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/formstyle.css">
+        <title>Rhys' Form</title>
+    </head>
+    <body>
+        <h1>Rhys's Subscription Letter</h1>
+        <form action="#" id="main-form" >
+            <!-- Contact Details -->
+            <fieldset>
+                <legend id="cheader">Contact Details</legend>
+                <label for="fname" id="fname" >Full Name:</label>
+                <input id="iname" type="text" maxlength="30" size="15"/>
+                <br>
+                <label for="email" id="email">Email:</label>
+                <input id="iemail" type="text" maxlength="30" size="15"/>
+                <br>
+                <label for="telenumber" id="telenumber">Contact Number</label>
+                <input id="itelephonenumber" type="number" maxlength="11" size="15"/>
+                <br>
+                <label for="password" id="password">Password:</label>
+                <input id="ipassword" type="password" maxlength="30" size="15"/>
+                <br>
+            </fieldset>
+            <br>
+            <!-- Learn about Customer -->
+            <fieldset>
+            <legend>Lets get to know you...</legend>
+            <label for="reason" id="reason">Why would you like to join us?</label>
+            <br>
+            <textarea name="reason" cols="35" rows="4">Tell me everything!</textarea>
+            <br>
+            <label for="faveourite" id="favemartial">Whats your Faveourite Martial Art?</label>
+            <br>
+            <select name="martialarts">
+                <option value="pickone">Please Choose an Option!</option>
+                <option value="boxing">Boxing</option>
+                <option value="bjj">Brazillian Jiu Jitsu</option>
+                <option value="Wrestling">Wrestling</option>
+                <option value="kickboxing">Kick Boxing</option>
+                <option value="muaythai">Muay Thai</option>
+                <option value="karate"> Karate</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <textarea name="other" cols="35" rows="2"></textarea>
+            <br>
+            <label for="info" id="aboutyou">Tell me about yourself</label>
+            <br>
+            <textarea name="aboutyou" cols="35" rows="8">Tell me about your previous experience etc...</textarea>
+            </fieldset>
+            <!-- Submit Section -->
+            <fieldset>
+                <legend>Thankyou!</legend>
+                <label for="tsandcs" id="tsandcs"><a href="#">Please Read our Terms and Conditions</a></label>
+                <input name="terms" value="termsandcoditions" type="radio" required/>
+                <br>
+                <input type="submit" value="Subscribe"/>
+             </fieldset>
+        </form>
+    </body>
+</html>
